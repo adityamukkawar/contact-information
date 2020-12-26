@@ -15,7 +15,7 @@ namespace Test
     {
         private  UnitOfWork _UOW;
         public static DbContextOptions<EvolentContactInformationContext> dbContextOptions { get; }
-        public static string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=EvolentContactInformation;user id=sa;password=admin@123;";
+        public static string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=EvolentContactInformation;user id=sa;password=*****;";
 
         static ContactsInformationControllerTest()
         {
